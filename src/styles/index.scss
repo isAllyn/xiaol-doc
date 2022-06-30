@@ -1,0 +1,26 @@
+@import url("normalize.css");
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(206, 213, 217, 1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(154, 170, 184, 1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  background-color: rgba(154, 170, 184, 1);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: rgba(154, 170, 184, .7);
+}
